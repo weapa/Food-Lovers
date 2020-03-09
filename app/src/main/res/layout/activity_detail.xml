@@ -40,14 +40,14 @@
 
         <TextView
 
-            android:id="@+id/tvNameRestaurant"
+            android:id="@+id/tvNamecafe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="restaurant"
             android:layout_marginTop="3dp"
             android:layout_below="@+id/tvFoodName"
             android:layout_toRightOf="@+id/iconLocation"
-            android:textColor="#fefefefe"
+            android:textColor="#ffffff"
 
             />
 
@@ -57,7 +57,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_star_black_24dp"
-            android:layout_below="@+id/tvNameRestaurant"
+            android:layout_below="@+id/tvNamecafe"
             android:layout_toLeftOf="@id/star2"
 
             />
@@ -68,7 +68,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_star_black_24dp"
-            android:layout_below="@+id/tvNameRestaurant"
+            android:layout_below="@+id/tvNamecafe"
             android:layout_toLeftOf="@id/star3"
             />
         <ImageView
@@ -76,7 +76,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_star_black_24dp"
-            android:layout_below="@+id/tvNameRestaurant"
+            android:layout_below="@+id/tvNamecafe"
             android:layout_toLeftOf="@id/star4"
             />
         <ImageView
@@ -85,7 +85,7 @@
             android:layout_width="24dp"
             android:layout_height="24dp"
             android:src="@drawable/ic_star_black_24dp"
-            android:layout_below="@+id/tvNameRestaurant"
+            android:layout_below="@+id/tvNamecafe"
             android:layout_toLeftOf="@id/star5"
             />
         <ImageView
@@ -95,7 +95,7 @@
             android:layout_height="24dp"
             android:src="@drawable/ic_star_black_24dp"
             android:layout_alignRight="@id/imgView"
-            android:layout_below="@+id/tvNameRestaurant"
+            android:layout_below="@+id/tvNamecafe"
             android:layout_marginRight="24dp"
             />
 

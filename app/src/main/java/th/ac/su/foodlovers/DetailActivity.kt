@@ -14,15 +14,14 @@ class DetailActivity : AppCompatActivity() {
         val foodName = intent.getStringExtra("foodName")
         val description = intent.getStringExtra("description")
         val imageFile = intent.getStringExtra("imageFile")
-        val restaurantName = intent.getStringExtra("cafeName")
+        val cafeName = intent.getStringExtra("cafeName")
         val price = intent.getStringExtra("price")
 
 
 
 
         tvFoodName.setText(foodName)
-        tvNameRestaurant.setText(restaurantName)
-//        tvPrice.setText(price)
+        //tvNamecafe.setText(cafeName)
         tvDetail.setText(description)
 
 //

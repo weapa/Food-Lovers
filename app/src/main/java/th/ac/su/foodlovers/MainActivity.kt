@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity() {
             var intent = Intent(this@MainActivity,DetailActivity::class.java)
             intent.putExtra("imageFile",itemList[position].imageFile)
             intent.putExtra("foodName",itemList[position].foodName)
-            intent.putExtra("restaurantName",itemList[position].cafeName)
+            intent.putExtra("cafeName",itemList[position].cafeName)
             intent.putExtra("star",itemList[position].star)
             intent.putExtra("description",itemList[position].description)
 
